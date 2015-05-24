@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VGMenu.VGMenuManager" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABDREAAAAMAFAAAAAAAEABAABAAgAAEAgAAA=</HashCode>
+      <FileName>VGMenuManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VGMenu.Screens.Menu.BaseMenuControl" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgBAAAACBAzQAAIEICUAESEFAAhIAIAIAECAgAAEI=</HashCode>
+      <FileName>Screens\Menu\BaseMenuControl.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="shapeItems" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VGMenu.Screens.MainMenu.MainMenuScreen">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="VGMenu.Screens.MainMenu.MainMenuScreen.MainMenuEnum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Screens\MainMenu\MainMenuScreen.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICBAgAAAAAAgAAAQAAAAEAAJAAAACAAAAgA=</HashCode>
+      <FileName>Screens\MainMenu\MainMenuScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainMenu" />
+      <Field Name="submnu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VGMenu.Screens.Screen">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoCBAAAAAAAAAAAAQgAAAAAAIAAAAAEAAAAA=</HashCode>
+      <FileName>Screens\Screen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="activeControl" />
+      <Field Name="screenManager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VGMenu.Screens.Control" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAAAAAAAAABAQAAAAAAAIAIAACAAAAAA=</HashCode>
+      <FileName>Screens\Control.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VGMenu.Screens.ScreenManager">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAAAAEAAAAAAAAAAAAAAggIAAAAAAgAA=</HashCode>
+      <FileName>Screens\ScreenManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ActiveScreen" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Screens" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="VGMenu.Screens.MovieDetails.MovieDetailsScreen">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAQCAACBAgAAQABAAAAAQAIAAhEAJAAAASAAAAAA=</HashCode>
+      <FileName>Screens\MovieDetails\MovieDetailsScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mnuOptions" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VGMenu.Screens.MovieDetails.MovieDetailsMenuControl" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUAAAAAAAAAAAAAAAAAAABAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Screens\MovieDetails\MovieDetailsMenuControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="VGMenu.Screens.Menu.IShapeMenuItem" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAEAIAAAAAAAAAAA=</HashCode>
+      <FileName>Screens\Menu\IShapeMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

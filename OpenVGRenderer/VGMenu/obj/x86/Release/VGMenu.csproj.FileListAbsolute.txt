@@ -1,0 +1,15 @@
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\obj\x86\Release\ResolveAssemblyReference.cache
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\obj\x86\Release\VGMenu.exe
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\obj\x86\Release\VGMenu.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\VGMenu.exe
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\VGMenu.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\VGMenu.exe.config
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\RestSharp.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\TMDbLib.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\RestSharp.xml
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\TMDbLib.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\LoggingLib.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\ServiceConnector.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\Newtonsoft.Json.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\LoggingLib.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\ServiceConnector.pdb

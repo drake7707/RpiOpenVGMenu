@@ -1,0 +1,60 @@
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\obj\x86\Debug\ResolveAssemblyReference.cache
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\obj\x86\Debug\VGMenu.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\VGMenu.exe
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\VGMenu.pdb
+D:\Dropbox\Projects\OpenVGRenderer\VGMenu\obj\x86\Debug\VGMenu.exe
+D:\Dropbox\Projects\OpenVGRenderer\VGMenu\obj\x86\Debug\VGMenu.pdb
+D:\Dropbox\Projects\OpenVGRenderer\VGMenu\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Projects\OpenVGRenderer\VGMenu\VGMenu.exe
+D:\Dropbox\Projects\OpenVGRenderer\VGMenu\VGMenu.pdb
+D:\TempThatExistsThisLongIsntTempAnymore\VGMenu\obj\x86\Debug\VGMenu.exe
+D:\TempThatExistsThisLongIsntTempAnymore\VGMenu\obj\x86\Debug\VGMenu.pdb
+D:\TempThatExistsThisLongIsntTempAnymore\VGMenu\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TempThatExistsThisLongIsntTempAnymore\VGMenu\VGMenu.exe
+D:\TempThatExistsThisLongIsntTempAnymore\VGMenu\VGMenu.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\VGMenu.exe.config
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\LoggingLib.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\RestSharp.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\ServiceConnector.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\TMDbLib.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\Newtonsoft.Json.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\LoggingLib.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\RestSharp.xml
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\ServiceConnector.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\TMDbLib.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\cec-client
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\openvgrenderer.lib
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\VGMenu.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\LoggingLib.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\RestSharp.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\ServiceConnector.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\TMDbLib.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\Newtonsoft.Json.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\LoggingLib.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\RestSharp.xml
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\ServiceConnector.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\TMDbLib.pdb
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\img\background.jpg
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\img\cover.jpg
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\VGMenu.dll.config
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\bin\VGMenu.dll
+\\RASPBERRYPI\pi\test\testunmanaged\OpenVGRenderer\VGMenu\obj\x86\Debug\VGMenu.dll
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\img\background.jpg
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\img\cover.jpg
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\cec-client
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\openvgrenderer.lib
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\VGMenu.dll.config
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\VGMenu.dll
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\VGMenu.pdb
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\LoggingLib.dll
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\RestSharp.dll
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\ServiceConnector.dll
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\TMDbLib.dll
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\Newtonsoft.Json.dll
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\LoggingLib.pdb
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\RestSharp.xml
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\ServiceConnector.pdb
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\bin\TMDbLib.pdb
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\obj\x86\Debug\VGMenu.dll
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\obj\x86\Debug\VGMenu.pdb
+D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\VGMenu\obj\x86\Debug\VGMenu.csprojResolveAssemblyReference.cache

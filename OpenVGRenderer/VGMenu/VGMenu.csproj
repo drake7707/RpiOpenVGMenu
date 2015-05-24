@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88873B1D-A516-41C6-AE5C-E01B05941B26}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VGMenu</RootNamespace>
+    <AssemblyName>VGMenu</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LoggingLib">
+      <HintPath>D:\Dwight Documenten\Programming\Own C# Projects\SimpleHTTPserver\LoggingLib\bin\Debug\LoggingLib.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=104.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Lib\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceConnector">
+      <HintPath>D:\Dwight Documenten\Programming\Own C# Projects\SimpleHTTPserver\ServiceConnector\bin\Debug\ServiceConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TMDbLib, Version=0.7.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Lib\TMDbLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Episode Management\EpisodeManager.cs" />
+    <Compile Include="Episode Management\EpisodeMetadata.cs" />
+    <Compile Include="Episode Management\EpisodeMetaDataService.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="IPlayer.cs" />
+    <Compile Include="LibCECManager.cs" />
+    <Compile Include="MetadataManager.cs" />
+    <Compile Include="Movie Management\MovieManager.cs" />
+    <Compile Include="Movie Management\MovieMetadata.cs" />
+    <Compile Include="Movie Management\MovieMetaDataService.cs" />
+    <Compile Include="PlayableFile.cs" />
+    <Compile Include="Screens\Control.cs" />
+    <Compile Include="Screens\Details\IDetailItem.cs" />
+    <Compile Include="Screens\MainMenu\MainMenuScreen.cs" />
+    <Compile Include="Screens\MainMenu\Menu\SeriesSubMenuItem.cs" />
+    <Compile Include="Screens\MainMenu\Menu\RecentMenuControl.cs" />
+    <Compile Include="Screens\MainMenu\Menu\ShapeRecentMenuTitle.cs" />
+    <Compile Include="Screens\MainMenu\Menu\ShapeThumbMenuItem.cs" />
+    <Compile Include="Screens\MainMenu\Menu\ThumbMenuControl.cs" />
+    <Compile Include="Screens\Menu\BaseMenuControl.cs" />
+    <Compile Include="Screens\MainMenu\Menu\MainMenuControl.cs" />
+    <Compile Include="Screens\Menu\IShapeMenuItem.cs" />
+    <Compile Include="Screens\Menu\MenuItem.cs" />
+    <Compile Include="Screens\MainMenu\Menu\MovieSubMenuItem.cs" />
+    <Compile Include="Screens\Details\DetailsMenuControl.cs" />
+    <Compile Include="Screens\Details\PlayableDetailsScreen.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\Details\ShapeSubtitleMenuItem.cs" />
+    <Compile Include="Screens\ShapeSubMenuItem.cs" />
+    <Compile Include="Screens\MainMenu\Menu\SubMenuControl.cs" />
+    <Compile Include="Screens\Menu\ShapeMenuItem.cs" />
+    <Compile Include="Screens\Details\SubtitleMenuItem.cs" />
+    <Compile Include="Screens\Screen.cs" />
+    <Compile Include="Screens\ScreenManager.cs" />
+    <Compile Include="Screens\SeriesDetails\EpisodeSubMenuItem.cs" />
+    <Compile Include="Screens\SeriesDetails\SeasonSubMenuItem.cs" />
+    <Compile Include="Screens\SeriesDetails\SeriesMenuControl.cs" />
+    <Compile Include="Screens\SeriesDetails\SeriesDetailsScreen.cs" />
+    <Compile Include="ShapeController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Subtitle.cs" />
+    <Compile Include="SubtitleManager.cs" />
+    <Compile Include="ThemeManager.cs" />
+    <Compile Include="VGMenuManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="cec-client">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="openvgrenderer.lib">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\background.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\cover.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

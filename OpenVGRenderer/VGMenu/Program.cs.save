@@ -1,0 +1,81 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Runtime.InteropServices;
+
+namespace VGMenu
+{
+
+
+	
+    class Program
+    {
+
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("SHAPE_IMAGE size: " + Marshal.SizeOf(typeof(VGMenu.ShapeController.SHAPE_IMAGE)));
+
+            ShapeController.Initialize();
+
+            System.Diagnostics.Stopwatch watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
+
+	  for(int i = 0; i < 100; i++) {
+
+           ShapeController.AddRect(new ShapeController.SHAPE_RECT()
+            {
+		id = 0,
+                x = 0,
+                y = 0,
+                width = 0.5f,
+                height = 0.5f,
+
+                backColor = new ShapeController.COLOR()
+                {
+                    R = 64,
+                    B = 64,
+                    G = 64
+                }
+            });
+
+            ShapeController.AddText(new ShapeController.SHAPE_TEXT()
+            {
+		id = 1,
+                x = 0.1f,
+                y = 0.1f,
+                text = "This is a test string",
+                color = new ShapeController.COLOR()
+                {
+                    R = 64,
+                    B = 64,
+                    G = 64
+                }
+            });
+
+}
+
+            ShapeController.AddImage(new ShapeController.SHAPE_IMAGE()
+            {
+		id = 2,
+                x = 0.1f,
+                y = 0.1f,
+                width = 0.5f,
+                height = 0.5f,
+                filename = "img/background.jpg"
+            });
+
+         
+for(int i = 0; i < 100; i++) {
+            ShapeController.Draw();
+}
+
+            watch.Stop();
+
+            Console.WriteLine("Took: " + watch.ElapsedMilliseconds + "ms");
+
+            ShapeController.Destroy();
+        }
+    }
+}

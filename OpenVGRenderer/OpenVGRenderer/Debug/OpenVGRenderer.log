@@ -1,0 +1,44 @@
+﻿Build started 24/05/2015 8:58:56.
+     1>Project "D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\OpenVGRenderer\OpenVGRenderer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenVGRenderer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ImageController.cpp main.cpp Shape.cpp ShapeController.cpp SImage.cpp SRectangle.cpp SText.cpp
+         SText.cpp
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\stext.cpp(43): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\stext.cpp(45): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         SRectangle.cpp
+         SImage.cpp
+         ShapeController.cpp
+         Shape.cpp
+         main.cpp
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\main.cpp(55): warning C4309: '=' : truncation of constant value
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\main.cpp(65): warning C4309: '=' : truncation of constant value
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\main.cpp(66): warning C4309: '=' : truncation of constant value
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\main.cpp(67): warning C4309: '=' : truncation of constant value
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\main.cpp(68): warning C4309: '=' : truncation of constant value
+         ImageController.cpp
+         Generating Code...
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\shapecontroller.cpp(23): warning C4700: uninitialized local variable 'sWidth' used
+     1>d:\dwight documenten\programming\own c# projects\openvgmenu\openvgrenderer\openvgrenderer\shapecontroller.cpp(24): warning C4700: uninitialized local variable 'sHeight' used
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\Debug\OpenVGRenderer.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenVGRenderer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\Debug\OpenVGRenderer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\Debug\OpenVGRenderer.lib" /MACHINE:X86 Debug\ImageController.obj
+         Debug\main.obj
+         Debug\Shape.obj
+         Debug\ShapeController.obj
+         Debug\SImage.obj
+         Debug\SRectangle.obj
+         Debug\SText.obj
+         LINK : D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\Debug\OpenVGRenderer.exe not found or not built by the last incremental link; performing full link
+         OpenVGRenderer.vcxproj -> D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\Debug\OpenVGRenderer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\Debug\OpenVGRenderer.exe;#1" /manifest Debug\OpenVGRenderer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenVGRenderer.unsuccessfulbuild".
+         Touching "Debug\OpenVGRenderer.lastbuildstate".
+     1>Done Building Project "D:\Dwight Documenten\Programming\Own C# Projects\OpenVGMenu\OpenVGRenderer\OpenVGRenderer\OpenVGRenderer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.30
