@@ -13,7 +13,7 @@ SRCS = $(wildcard *.cpp)
 OBJS = $(addprefix $(TGT)/, $(notdir $(SRCS:.cpp=.o)))
 
 # Define appropriate compiler options
-CXXFLAGS = -Wall -pedantic -Drpi -std=c++0x -shared
+CXXFLAGS =-mfloat-abi=hard  -Wall -pedantic -Drpi -std=c++0x -shared
 
 # Define appropriate link options and libraries
 LDFLAGS =-L/opt/vc/lib  -lGLESv2 -ljpeg -shared
